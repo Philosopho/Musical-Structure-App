@@ -33,8 +33,8 @@
             <ImageView
                 android:id="@+id/logo_image"
                 android:layout_width="match_parent"
-                android:layout_height="128dp"
-                android:src="@drawable/iconfinder_folder_music_103554"
+                android:layout_height="@dimen/logoImageHeight"
+                android:src="@drawable/ic_music_folder"
                 app:layout_constraintBottom_toTopOf="@id/now_playing_header"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"

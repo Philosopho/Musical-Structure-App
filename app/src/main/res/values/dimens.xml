@@ -2,4 +2,9 @@
 <resources>
     <dimen name="textSizeHeader">64sp</dimen>
     <dimen name="textSizeDetail">32sp</dimen>
+    <dimen name="headerPadding">16dp</dimen>
+    <dimen name="detailLayoutMargin">16dp</dimen>
+    <dimen name="logoImageHeight">128dp</dimen>
+    <dimen name="musicItemLLHeight">88dp</dimen>
+    <dimen name="musicItemTextSize">24sp</dimen>
 </resources>

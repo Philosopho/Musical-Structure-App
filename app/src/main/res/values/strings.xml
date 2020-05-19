@@ -4,7 +4,7 @@
     <string name="play">Play</string>
     <string name="music_selection">Music Selection</string>
     <string name="music_details">Music Details</string>
-    <string name="now_playing">Now Playing...</string>
+    <string name="now_playing">Now Playing…</string>
     <string name="artist_name_extra">ARTIST_NAME_EXTRA</string>
     <string name="music_name_extra">MUSIC_NAME_EXTRA</string>
     <string name="artist_header">Artist</string>

@@ -2,4 +2,6 @@
 <resources>
     <dimen name="textSizeHeader">88sp</dimen>
     <dimen name="textSizeDetail">40sp</dimen>
+    <dimen name="musicItemLLHeight">104dp</dimen>
+    <dimen name="musicItemTextSize">32sp</dimen>
 </resources>
