@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSizeHeader">64sp</dimen>
+    <dimen name="textSizeDetail">32sp</dimen>
+</resources>

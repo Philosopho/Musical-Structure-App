@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="music"
+            type="com.krinotech.musicalstructureapp.Music" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:orientation="horizontal"
+            android:background="@color/colorPrimary"
+            >
+            <ImageView
+                android:id="@+id/logo_image"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="16dp"
+                android:src="@drawable/iconfinder_folder_music_103554"
+                android:contentDescription="@string/logo" />
+
+            <TextView
+                android:id="@+id/music_name"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@{music.musicName}"
+                android:textColor="@color/textColor"
+                android:textStyle="bold"
+                tools:text="Music One"
+                />
+            <ImageView
+                android:id="@+id/play_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_margin="16dp"
+                android:layout_weight="1"
+                android:foregroundGravity="center"
+                android:src="@drawable/iconfinder_23_play_106223"
+                android:contentDescription="@string/play" />
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/colorAccent"
+            />
+    </LinearLayout>
+</layout>
